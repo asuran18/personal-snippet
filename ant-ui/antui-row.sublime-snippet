@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<Row>
+</Row>
+]]></content>
+	<tabTrigger>row</tabTrigger>
+	<scope>source.js</scope>
+	<description>antui-row</description>
+</snippet>

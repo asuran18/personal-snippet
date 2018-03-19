@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+yield put({
+  type: '',
+  payload: {
+    
+  }
+})
+]]></content>
+	<tabTrigger>put</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

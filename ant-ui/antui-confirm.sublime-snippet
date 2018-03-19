@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+Modal.confirm({
+  title: `确认删除选中的${1}条数据？`,
+  onOk() {
+    
+  },
+});
+]]></content>
+	<tabTrigger>confirm</tabTrigger>
+	<scope>source.js</scope>
+	<description>antui确认框</description>
+</snippet>

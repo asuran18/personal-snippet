@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+
+export default {
+  namespace: '',
+  state: {
+
+  },
+  reducers: {
+    updateState(state, {payload}) {
+      return {...state, ...payload};
+    },
+  },
+  effects: {
+    *test({payload}, {select, put, call}) {
+
+    },
+  },
+  subscriptions: {
+  	setup({ dispatch, history }) {
+      return history.listen(({ pathname, search }) => {
+        if (pathname === '/') {
+          
+        }
+      });
+    },
+  },
+};
+]]></content>
+	<tabTrigger>model</tabTrigger>
+	<scope>source.js</scope>
+	<description>react-model</description>
+</snippet>

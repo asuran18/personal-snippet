@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<Select value={} onChange={} >
+  <Option value="">全部</Option>
+  {
+    list.map( item => (
+      <Option key={item.id}>{ item.text }</Option>
+    ))
+  }
+</Select>
+]]></content>
+	<tabTrigger>select</tabTrigger>
+	<scope>source.js</scope>
+	<description>antui-select</description>
+</snippet>

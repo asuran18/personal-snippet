@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+*${1:test}({payload}, {select, put, call}) {
+},
+]]></content>
+	<tabTrigger>model-effects</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

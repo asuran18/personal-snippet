@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import styles from '${1:./TmpComponent}.less';
+
+function ${2:TmpComponent}() {
+  return (
+    <div ${3:className={styles.normal}}>
+      Component: TmpComponent
+    </div>
+  );
+}
+
+export default ${4:TmpComponent};
+]]></content>
+	<tabTrigger>component</tabTrigger>
+	<scope>source.js</scope>
+	<description>react-component</description>
+</snippet>

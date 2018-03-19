@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+const disableStartDate = function(current) {
+  const end = getFieldValue('${1:endDateM}');
+  return current.valueOf() > end.valueOf();
+}
+
+const disableEndDate = function(current) {
+  const start = getFieldValue('${2:startDateM}');
+  return current.valueOf() < start.valueOf();
+}
+
+<DatePicker style={{ width: '100%' }} allowClear={false} disabledDate={disableStartDate} />
+]]></content>
+	<tabTrigger>datepicker</tabTrigger>
+	<scope>source.js</scope>
+	<description>antui-时间选择（带控制）</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:updateState}(state, {payload}) {
+  return {...state, ...payload};
+},
+]]></content>
+	<tabTrigger>model-reducers</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

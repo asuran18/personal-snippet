@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+const { data } = yield call(${1:fucname}, ${2:params});
+]]></content>
+	<tabTrigger>call</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

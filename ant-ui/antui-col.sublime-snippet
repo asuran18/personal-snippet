@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<Col span={${1:12}}>
+</Col>
+]]></content>
+	<tabTrigger>col</tabTrigger>
+	<scope>source.js</scope>
+	<description>antui-col</description>
+</snippet>
